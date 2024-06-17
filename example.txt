@@ -1,0 +1,59 @@
+Presentationsprogram baserat på
+vanliga textfiler.
+
+Inspired by suckless sent:
+https://tools.suckless.org/sent/
+Written in python using the
+customtkinter library.
+
+Egenskaper:
+# kommentar
+* Use a text file or stdin from pipes as source
+* Slides are separated with empty lines
+* Comments with #
+* Bullet points with "* " or "> " at beginning of line.
+* Visa bilder med @<pathtofile>
+* \ för att förhindra specialteckens funktioner
+* Många kortkommandon
+* "Hackable"
+
+# Kommentar
+
+# Flera kommentarer på rader efter varandra räknas inte heller med
+
+Varför detta?
+* enklare presentationer (pptx och liknande
+  är ofta överkomplicerade)
+* kul
+* simpel, elegant
+
+Använda @ för att visa en bild.
+
+#Vanlig bild
+@./images/clouds.png
+
+Exempel
+#san
+		
+Förra sliden innehöll en rad med 
+inledande tecken # som därmed 
+blev en kommentar
+
+\# 🤯
+\@example
+\\
+
+Använd \ för att
+ta bort specialteckens
+funktioner
+
+Configuration:
+* Key bindings
+* System appearance mode, options: dark, light or system
+* Show progress, options: true or false
+* Progress mode, options: text, or progressbar
+
+Potentiella förbättringar:
+* Skala bilder rätt
+* Skala ned fontstorleken vid längre
+  meningar
