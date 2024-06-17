@@ -5,9 +5,9 @@ Inspired by [suckless sent](https://tools.suckless.org/sent/).
 ## Usage
 **$** tpt
 
-**$** tpt file.txt
+**$** tpt example.txt
 
-**$** cat file.txt | tpt
+**$** cat example.txt | tpt
 
 **$** printf "Slide 1\\n\\nSlide 2" | tpt
 
@@ -17,8 +17,8 @@ Inspired by [suckless sent](https://tools.suckless.org/sent/).
 
 ## Configuration
 The configuration on linux systems is done through creating a custom .ini file located at ~/.config/tpt/config.ini which overwrites the default configuration. 
-An example configuration containing all values is located at /usr/share/tpt/config.ini
-Following are some values:
+An example configuration file containing all values can be copied from /usr/share/tpt/config.ini on linux systems.
+Following are some values from the configuration file:
 
 | Section              | Key                | Default                | Notes                                              |
 |----------------------|--------------------|------------------------|----------------------------------------------------|
