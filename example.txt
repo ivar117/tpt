@@ -23,10 +23,10 @@ Egenskaper:
 # Flera kommentarer på rader efter varandra räknas inte heller med
 
 Varför detta?
-* enklare presentationer (pptx och liknande
+> enklare presentationer (pptx och liknande
   är ofta överkomplicerade)
-* kul
-* simpel, elegant
+> kul
+> simpel, elegant
 
 Använda @ för att visa en bild.
 
