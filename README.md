@@ -23,5 +23,5 @@ Following are some values from the configuration file:
 | Section              | Key                | Default                | Notes                                              |
 |----------------------|--------------------|------------------------|----------------------------------------------------|
 | `[appearance]`       | `appearance_mode`  | `dark`                 | Theme. May be `dark`, `light` or `system`.         |
-| `[appearance]`       | `show_progress`    | `false`                | Shows how much more of your presentation has to be endured. |
+| `[appearance]`       | `show_progress`    | `true`                | Shows how much more of your presentation has to be endured. |
 | `[appearance]`       | `progress_style`   | `bar`                  | How progress is shown. May be `text` or `bar`.     |
